@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tales-economy",
+  "version": "${version}",
+  "name": "Tales Economy",
+  "description": "",
+  "authors": [
+    "Nokorbis"
+  ],
+  "contact": {
+    "repo": "https://github.com/BenderTales/tales-economy"
+  },
+  "license": "MIT",
+  "icon": "assets/tales-economy/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.bendertales.mc.taleseconomy.TalesEconomy"
+    ]
+  },
+  "mixins": [
+    "tales-economy.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19.1"
+  }
+}
